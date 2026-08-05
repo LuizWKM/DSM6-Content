@@ -1,0 +1,3 @@
+Um modelo pré-treinado é um modelo de aprendizado de máquina que foi previamente treinado em um grande [conjunto de dados](https://www.ibm.com/br-pt/think/topics/dataset) para uma tarefa específica (geralmente de uso geral) e pode ser reutilizado ou ajustado para uma tarefa diferente, mas relacionada. Os modelos pré-treinados economizam tempo, dados e recursos computacionais das equipes de desenvolvimento em comparação com o treinamento de um modelo a partir do zero. Exemplos populares dividem-se em visão computacional (como ResNet e VGG-16) e processamento de linguagem natural (como BERT e GPT-3)
+
+[O que é um modelo pré-treinado? | IBM](https://www.ibm.com/br-pt/think/topics/pretrained-model)

@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "c29f48418122c294",
+    "type": "split",
+    "children": [
+      {
+        "id": "926bcc1278a3f406",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3dbdb2278eb9fc7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EP/Introdução à disciplina EP 04-08-2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introdução à disciplina EP 04-08-2026"
+            }
+          },
+          {
+            "id": "20b99345aaecb32d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PLN/PLN - Aula dia 05-08-2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PLN - Aula dia 05-08-2026"
+            }
+          },
+          {
+            "id": "a5c92c7a32c877e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PLN/PLN - Aula dia 05-08-2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PLN - Aula dia 05-08-2026"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "42355d24944c8bd0",
+    "type": "split",
+    "children": [
+      {
+        "id": "da972dcea122077f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "200f00b8f917d758",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "1353631823889a10",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "c8ac2d831a78de2e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b926858883c09c46",
+    "type": "split",
+    "children": [
+      {
+        "id": "125fe2ee420009af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "848c51a0ad545d29",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "EP/Introdução à disciplina EP 04-08-2026.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos"
+            }
+          },
+          {
+            "id": "590fbb942090de52",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "EP/Introdução à disciplina EP 04-08-2026.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "76eaaee18ebadf8e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "dfe442f3ab0319e3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "46b9ea826916cfaa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "EP/Introdução à disciplina EP 04-08-2026.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "a5c92c7a32c877e2",
+  "lastOpenFiles": [
+    "PLN/Significados/Modelos pré-treinados.md",
+    "PLN/PLN - Aula dia 05-08-2026.md",
+    "Pasted image 20260805204148.png",
+    "PLN/Significados/Redes neurais.md",
+    "PLN/Significados/Transformers.md",
+    "PLN/Significados",
+    "EP/Introdução à disciplina EP 04-08-2026.md",
+    "PLN",
+    "crie um link.md",
+    "Bem-vindo.md",
+    "Sem título 1.md",
+    "EP"
+  ]
+}
