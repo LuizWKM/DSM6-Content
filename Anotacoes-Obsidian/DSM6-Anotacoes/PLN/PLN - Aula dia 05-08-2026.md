@@ -29,6 +29,10 @@ O banco de dados vai interpretar, processar (atribuir valor) e após o processam
 
 O PLN converte linguagem em dados, quantitativos, permitindo análises e previsões automatizadas. Suas 4 abordagens (simbólica, estatística, conexionista e híbrida) se complementam em aplicações como assistentes virtuais, chatbots e análise de sentimentos.
 
+História cronológica da evolução do PLN
+
+
+
 ## Principais Abordagens do PLN
 
 1) Simbólica
