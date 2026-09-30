@@ -89,6 +89,62 @@ Comparar as palavras "dedo" e "dengo".
 
 \- Para montar  a matriz, siga as etapas:
 1 - Posicione as palavras ( palavra 1 nas linhas e palavra 2 nas colunas)
-2 - Numere as linhas e colunas iniciando com 'O' antes da primeira letra e criando a sequência de 1 até o tamanho das palavras.
+2 - Numere as linhas e colunas iniciando com '0' antes da primeira letra e criando a sequência de 1 até o tamanho das palavras.
 3 - Para cada espaço em branco, analise o menor valor entre esquerda, diagonal e em cima. Esse valor será utilizado como base para saber quantas operações foram realizadas até ali. Em seguida, compare os caracteres se forem iguais some + 0 na quantidade mínima de operações. Caso sejam diferentes some + 1.
 4 - Ao final do preenchimento da matriz você encontrara na última posição, o valor da quantidade de operações necessárias para transformar a palavra 1 em palavra 2.
+
+Dia 24-09-2026
+
+Exercicio de fixação
+\- Para a cidade "São Paulo" compare com as variações abaixo utilizando a medida de Levenshtein:
+\- SP
+\- Sp
+\- S. Paulo
+\- São Paulo
+\- São P.
+
+
+|     |     | S   | ã   | o   | P   | a   | u   | l   | o   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|     | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   |
+| S   | 1   | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   |
+| P   | 2   | 1   | 1   | 2   | 2   | 3   | 4   | 5   | 6   |
+
+|     |     | S   | ã   | o   | P   | a   | u   | l   | o   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|     | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   |
+| S   | 1   | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   |
+| p   | 2   | 1   | 1   | 2   | 3   | 4   | 5   | 6   | 7   |
+
+|     |     | S   | ã   | o   | P   | a   | u   | l   | o   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|     | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   |
+| S   | 1   | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   |
+| .   | 2   | 1   | 1   | 2   | 3   | 4   | 5   | 6   | 7   |
+| P   | 3   | 2   | 2   | 2   | 2   | 3   | 4   | 5   | 6   |
+| a   | 4   | 3   | 3   | 3   | 3   | 2   | 3   | 4   | 5   |
+| u   | 5   | 4   | 4   | 4   | 4   | 3   | 2   | 3   | 4   |
+| l   | 6   | 5   | 5   | 5   | 5   | 4   | 3   | 2   | 3   |
+| o   | 7   | 6   | 6   | 6   | 6   | 5   | 4   | 3   | 2   |
+
+|     |     | S   | ã   | o   | P   | a   | u   | l   | o   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|     | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   |
+| S   | 1   | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   |
+| ã   | 2   | 1   | 0   | 1   | 2   | 3   | 4   | 5   | 6   |
+| o   | 3   | 2   | 1   | 0   | 1   | 2   | 3   | 4   | 5   |
+| P   | 4   | 3   | 2   | 1   | 0   | 1   | 2   | 3   | 4   |
+| a   | 5   | 4   | 3   | 2   | 1   | 0   | 1   | 2   | 3   |
+| u   | 6   | 5   | 4   | 3   | 2   | 1   | 0   | 1   | 2   |
+| l   | 7   | 6   | 5   | 4   | 3   | 2   | 1   | 0   | 1   |
+| o   | 8   | 7   | 6   | 5   | 4   | 3   | 2   | 1   | 0   |
+
+|     |     | S   | ã   | o   | P   | a   | u   | l   | o   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|     | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   |
+| S   | 1   | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   |
+| ã   | 2   | 1   | 0   | 1   | 2   | 3   | 4   | 5   | 6   |
+| o   | 3   | 2   | 1   | 0   | 1   | 2   | 3   | 4   | 5   |
+| P   | 4   | 3   | 2   | 1   | 0   | 1   | 2   | 3   | 4   |
+| .   | 5   | 4   | 3   | 2   | 1   | 1   | 2   | 3   | 4   |
+
