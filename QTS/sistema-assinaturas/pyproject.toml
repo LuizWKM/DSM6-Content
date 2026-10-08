@@ -1,0 +1,43 @@
+[project]
+name = "sistema-assinaturas"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Icaro Davies", email = "idavies@outlook.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+]
+
+[project.scripts]
+sistema-assinaturas = "sistema_assinaturas:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-cov>=7.1.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+addopts = "--cov=app --cov-report=term-missing --cov-report=html"
+markers = [
+    "unit: testes unitários",
+    "integration: testes de integração"
+]
+filterwarnings = [
+    "ignore::starlette.exceptions.StarletteDeprecationWarning",
+    "ignore::DeprecationWarning",
+]
+[tool.coverage.run]
+omit = [
+    "*/__init__.py"
+]
