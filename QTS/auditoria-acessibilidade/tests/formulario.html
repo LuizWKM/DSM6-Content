@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Hub Solidário - Cadastro</title>
+  <style>
+    body { font-family: sans-serif; background-color: #ffffff; padding: 20px; color: #1f2937; }
+    .card { max-width: 450px; margin: 0 auto; padding: 20px; border: 1px solid #d1d5db; border-radius: 8px; }
+
+    /* CORREÇÃO 1: Contraste corrigido (#4b5563 em fundo branco = 7.0:1) */
+    .subtitulo { color: #4b5563; font-size: 14px; margin-bottom: 20px; }
+
+    /* CORREÇÃO 2: Indicador de foco visual nitido e acessivel */
+    *:focus-visible {
+      outline: 3px solid #2563eb;
+      outline-offset: 2px;
+    }
+
+    .campo { margin-bottom: 15px; }
+    .campo label { display: block; font-weight: bold; margin-bottom: 5px; font-size: 14px; }
+    .campo input { width: 100%; padding: 10px; border: 1px solid #9ca3af; border-radius: 6px; box-sizing: border-box; }
+
+    /* CORREÇÃO 3: Uso de elemento <button> real com estilos adequados */
+    .btn-submit {
+      display: block;
+      width: 100%;
+      border: none;
+      background-color: #2563eb;
+      color: #ffffff;
+      padding: 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .btn-submit:hover { background-color: #1d4ed8; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <!-- CORREÇÃO 4: Atributo alt descritivo adicionado a imagem -->
+    <img src="logo.png" alt="Logotipo do Hub Solidário" width="80" height="80">
+
+    <h2>Cadastro de Voluntários</h2>
+    <p class="subtitulo">Preencha seus dados para apoiar causas sociais.</p>
+
+    <form id="form-voluntario" onsubmit="enviarFormulario(event)">
+      <!-- CORREÇÃO 5: Elementos <label> devidamente associados via atributo for -->
+      <div class="campo">
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" name="nome" required>
+      </div>
+
+      <div class="campo">
+        <label for="email">E-mail Institucional</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <button type="submit" class="btn-submit">
+        Cadastrar Voluntário
+      </button>
+    </form>
+
+    <div id="resultado" role="status" aria-live="polite" style="display: none; margin-top: 15px; color: #15803d; font-weight: bold;">
+      Cadastro realizado com sucesso!
+    </div>
+  </main>
+
+  <script>
+    function enviarFormulario(event) {
+      event.preventDefault();
+      document.getElementById('resultado').style.display = 'block';
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+[project]
+name = "auditoria-acessibilidade"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "LuizWKM", email = "luizricardowm@outlook.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pytest>=8.3.0",
+    "pytest-playwright>=0.5.0",
+    "axe-playwright-python>=0.1.5",
+]
+
+[tool.pytest.ini_options]
+testpaths = ['tests']
+addopts = "-v --headed"
+markers = [
+    "accessibility: Testes automatizados de conformidade WCAG com axe-core",
+    "keyboard: Testes de navegação e operabilidade exclusiva por teclado",
+]
+
+
+[project.scripts]
+auditoria-acessibilidade = "auditoria_acessibilidade:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
