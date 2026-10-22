@@ -63,6 +63,8 @@ $$
 $F(x)$ = {1, soma >= 3
 	   0, soma < 3}
 
+o X da classe de ativação você faz com base na sua conta, se você quiser deixar passar tudo que é metade seria aqui por exemplo 2, se tivessem o maximo de somatoria de 10 você escolheria qual numero seria necessário para ter 1 que é o mesmo da Yr
+	
 \-> Aplicar o resultado da soma na $F(x)$:
 	soma = 0 -> $Yp$ = 0
 \-> Compar Yp com $Yr$:
