@@ -11,7 +11,7 @@ Para as RNAs com feedback, o fluxo de informação passa da "entrada" para a "sa
 
 Exercício para fixação 
 
--Tarefa : Brincar no parque
+\- Tarefa : Brincar no parque
 \- Atributos: {- Está sol? (x1)
 		   - Está quente? (x2)}
 \- Modelo simplificado da rede:

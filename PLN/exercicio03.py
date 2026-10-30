@@ -48,4 +48,3 @@ tags = nltk.pos_tag(lemas)
 frequencia_pares = Counter(vocabulario_total)
 
 print(frequencia_pares.most_common())
-
