@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "37668c2639addeca",
@@ -190,10 +191,12 @@
   },
   "active": "f3b645439ff3f2c5",
   "lastOpenFiles": [
-    "DSM6-Anotacoes/PLN/Bimestre2ATV1.md",
+    "DSM6-Anotacoes/PLN/Dia 26-08-2026.md",
     "DSM6-Anotacoes/PLN/Dia 23-09-2026 Similaridade Textual.md",
-    "DSM6-Anotacoes/PLN/Dia 07-10-2026 Aprendizagem de máquina aplicada ao PLN.md",
     "DSM6-Anotacoes/PLN/Dia 14-10-2026.md",
+    "DSM6-Anotacoes/PLN/Dia 12-08-2026 ATV presencial.md",
+    "DSM6-Anotacoes/PLN/Bimestre2ATV1.md",
+    "DSM6-Anotacoes/PLN/Dia 07-10-2026 Aprendizagem de máquina aplicada ao PLN.md",
     "DSM6-Anotacoes/PLN/PLN - Aula dia 05-08-2026.md",
     "Sem título.md",
     "DSM6-Anotacoes/Sem título.base"
