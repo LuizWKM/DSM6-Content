@@ -20,6 +20,7 @@ def bag_of_words(texts, words):
                 matrix[x,y] = 1
             else:
                 matrix[x,y] = 0
+                
 for texto in textos:
     palavras = nltk.word_tokenize(texto.lower())
     palavras = [palavra for palavra in palavras if palavra not in string.punctuation]
