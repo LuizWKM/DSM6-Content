@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSM6-Anotacoes/PLN/Dia 23-09-2026 Similaridade Textual.md",
+                "file": "DSM6-Anotacoes/QTS/Revisão prova.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dia 23-09-2026 Similaridade Textual"
+              "title": "Revisão prova"
+            }
+          },
+          {
+            "id": "336aba997914c421",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DSM6-Anotacoes/PLN/Significados e outras informações/Redes neurais.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Redes neurais"
             }
           }
         ]
@@ -83,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "37668c2639addeca",
@@ -191,13 +204,19 @@
   },
   "active": "f3b645439ff3f2c5",
   "lastOpenFiles": [
-    "DSM6-Anotacoes/PLN/Dia 26-08-2026.md",
-    "DSM6-Anotacoes/PLN/Dia 23-09-2026 Similaridade Textual.md",
     "DSM6-Anotacoes/PLN/Dia 14-10-2026.md",
-    "DSM6-Anotacoes/PLN/Dia 12-08-2026 ATV presencial.md",
-    "DSM6-Anotacoes/PLN/Bimestre2ATV1.md",
-    "DSM6-Anotacoes/PLN/Dia 07-10-2026 Aprendizagem de máquina aplicada ao PLN.md",
+    "DSM6-Anotacoes/QTS/Revisão prova.md",
+    "DSM6-Anotacoes/QTS",
+    "DSM6-Anotacoes/PLN/Dia 23-09-2026 Similaridade Textual.md",
+    "DSM6-Anotacoes/PLN/Dia 26-08-2026.md",
     "DSM6-Anotacoes/PLN/PLN - Aula dia 05-08-2026.md",
+    "DSM6-Anotacoes/PLN/Dia 07-10-2026 Aprendizagem de máquina aplicada ao PLN.md",
+    "DSM6-Anotacoes/PLN/Dia 12-08-2026 ATV presencial.md",
+    "DSM6-Anotacoes/PLN/Significados e outras informações/Transformers.md",
+    "DSM6-Anotacoes/PLN/Significados e outras informações/História cronológica do PLN.md",
+    "DSM6-Anotacoes/PLN/Significados e outras informações/Modelos pré-treinados.md",
+    "DSM6-Anotacoes/PLN/Significados e outras informações/Redes neurais.md",
+    "DSM6-Anotacoes/PLN/Bimestre2ATV1.md",
     "Sem título.md",
     "DSM6-Anotacoes/Sem título.base"
   ]

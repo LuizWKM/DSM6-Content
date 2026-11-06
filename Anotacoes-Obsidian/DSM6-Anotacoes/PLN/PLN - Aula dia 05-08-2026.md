@@ -39,7 +39,7 @@ História cronológica da evolução do PLN
 	- Sistemas mais simples
 	- Modelado para resolver 1 tarefa específica
 	- Volume  "pequeno" de dados
-	- Sistemas são baseados em regras
+	- Sistemas são baseados em regras, necessário reestruturar o sistema inteiro, caso seja necessário usalo para uma nova tarefa
 	- Exemplo: Árvore de decisões
 2) Estatística
 	- Utiliza as técnicas (erro, desvio padrão, média, probabilidade, etc) para extrair características e informações úteis.
